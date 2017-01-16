@@ -4,8 +4,12 @@ This application automatically retrieve job opportunities from several websites,
 competencies and level of experience, display in a "car comparison" way.
 
 ====
+##Table of Content
+* [System Desing](#system-design)
+* [Demo](#demo)
 
-## System Design  
+##System Design  
+-----------
 It consists 4 subsystems, each reside in a separate repository. 
 
 1. _jobboard.scraper_
@@ -39,3 +43,7 @@ It consists 4 subsystems, each reside in a separate repository.
    Some statistic features are also available.
 
 ![System Design](img/system-design.png)
+
+##Demo
+--------
+![System Design](img/demo.gif)
