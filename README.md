@@ -5,14 +5,15 @@ competencies and level of experience, display in a "car comparison" way.
 
 ====
 ##Table of Content
-* [System Desing](#system-design)
+* [System Design](#system-design)
 * [Demo](#demo)
+* [Motivation](#motivation)
 
 ##System Design  
 -----------
 It consists 4 subsystems, each reside in a separate repository. 
 
-1. _jobboard.scraper_
+1. __jobboard.scraper__
 
    `Python` `Selenium` `BeautifulSoup4` `AWS EC2` `RHEL`  
    A python scraper deployed on AWS EC2 (Linux). 
@@ -20,13 +21,13 @@ It consists 4 subsystems, each reside in a separate repository.
    such as Monster.ca, Neuvoo.ca, Workopolis.ca
    It then sends the raw information to jobboard.backend.
 
-2. _jobboard.backend_  
+2. __jobboard.backend__  
 
    `.NET Core` `EntityFramework Core` `MySql` `AliCloud` `CentOs` `Code First` `AutoMapper`  
    A RESTful data service built with ASP.NET Core + EntityFramework Core + MySql, deployed on AliCloud CentOs 7 instance.
    It serve as the data persistance service for jobboard.scraper and the backend for jobboard.frontend.
 
-3. _jobboard.analyzer_  
+3. __jobboard.analyzer__  
 
    `Python` `Flask` `Text Processing` `MyPy`  
    A python flask lighweight web service.
@@ -34,7 +35,7 @@ It consists 4 subsystems, each reside in a separate repository.
    of skills.Everytime a new recruiting post is sent to the backend, the analyze service will be triggered to process the text,
    extract desired information from unstructured text and save the result into MySql data tables.
 
-4. _jobboard.forntend_
+4. __jobboard.forntend__
 
    `Angular2` `Primeng`   
    Angular2 single page application, deployed on Nginx.
@@ -46,4 +47,7 @@ It consists 4 subsystems, each reside in a separate repository.
 
 ##Demo
 --------
-![System Design](img/demo.gif)
+![Demo](img/demo.gif)
+
+##Motivation
+--------
