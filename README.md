@@ -13,7 +13,7 @@ competencies and level of experience, display in a "car comparison" way.
 -----------
 It consists 4 subsystems, each reside in a separate repository. 
 
-1. __jobboard.scraper__
+1. [__jobboard.scraper__](https://github.com/CG0323/jobboard.backend)
 
    `Python` `Selenium` `BeautifulSoup4` `AWS EC2` `RHEL`  
    A python scraper deployed on AWS EC2 (Linux). 
