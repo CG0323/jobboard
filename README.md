@@ -13,7 +13,7 @@ competencies and level of experience, display in a "car comparison" way.
 -----------
 It consists of 4 subsystems. Each reside in a separate repository. (Click the subsystem name can go to its repository)
 
-1. [__jobboard.scraper__](https://github.com/CG0323/jobboard.backend)
+1. __jobboard.scraper__
 
    `Python` `Selenium` `BeautifulSoup4` `AWS EC2` `RHEL`  
    A python scraper deployed on AWS EC2 (Linux). 
@@ -21,7 +21,7 @@ It consists of 4 subsystems. Each reside in a separate repository. (Click the su
    such as Monster.ca, Neuvoo.ca, Workopolis.ca
    It then sends the raw information to jobboard.backend.
 
-2. __jobboard.backend__  
+2. [__jobboard.backend__](https://github.com/CG0323/jobboard.backend)  
 
    `.NET Core` `EntityFramework Core` `MySql` `AliCloud` `CentOs` `Code First` `AutoMapper`  
    A RESTful data service built with ASP.NET Core + EntityFramework Core + MySql, deployed on AliCloud CentOs 7 instance.
