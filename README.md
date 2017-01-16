@@ -11,7 +11,7 @@ competencies and level of experience, display in a "car comparison" way.
 
 ##System Design  
 -----------
-It consists 4 subsystems, each reside in a separate repository. 
+It consists of 4 subsystems. Each reside in a separate repository. (Click the subsystem name can go to its repository)
 
 1. [__jobboard.scraper__](https://github.com/CG0323/jobboard.backend)
 
