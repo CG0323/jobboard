@@ -24,7 +24,7 @@ It consists of 4 subsystems. Each reside in a separate repository. (Click the su
 2. [__jobboard.backend__](https://github.com/CG0323/jobboard.backend)  
 
    `.NET Core` `EntityFramework Core` `MySql` `AliCloud` `CentOs` `Code First` `AutoMapper`  
-   A RESTful data service built with ASP.NET Core + EntityFramework Core + MySql, deployed on AliCloud CentOs 7 instance.
+   A REST data service built with ASP.NET Core + EntityFramework Core + MySql, deployed on AliCloud CentOs 7 instance.
    It serve as the data persistance service for jobboard.scraper and the backend for jobboard.frontend.
 
 3. __jobboard.analyzer__  
