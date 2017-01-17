@@ -47,6 +47,7 @@ It consists of 4 subsystems. Each reside in a separate repository. (Click the su
 
 ##Demo
 --------
+[Demo Website](http://60.205.216.128/)
 ![Demo](img/demo.gif)
 
 ##Motivation
