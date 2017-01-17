@@ -35,7 +35,7 @@ It consists of 4 subsystems. Each reside in a separate repository. (Click the su
    of skills.Everytime a new recruiting post is sent to the backend, the analyze service will be triggered to process the text,
    extract desired information from unstructured text and save the result into MySql data tables.
 
-4. __jobboard.forntend__
+4. [__jobboard.forntend__](https://github.com/CG0323/jobboard.frontend)  
 
    `Angular2` `Primeng`   
    Angular2 single page application, deployed on Nginx.
