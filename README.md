@@ -27,7 +27,7 @@ It consists of 4 subsystems. Each reside in a separate repository. (Click the su
    A REST data service built with ASP.NET Core + EntityFramework Core + MySql, deployed on AliCloud CentOs 7 instance.
    It serve as the data persistance service for jobboard.scraper and the backend for jobboard.frontend.
 
-3. __jobboard.analyzer__  
+3. [__jobboard.analyzer__](https://github.com/CG0323/jobboard.analyzer)    
 
    `Python` `Flask` `Text Processing` `MyPy`  
    A python flask lighweight web service.
