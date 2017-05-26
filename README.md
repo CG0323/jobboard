@@ -1,7 +1,7 @@
 # jobboard
-This is a hobby project to practice ASP.Net Core(on Linux)  + Angular2 + Python.  
-This application automatically retrieves job opportunities from several websites, analyze the requirement description, extract required 
-competencies and level of experience, display in a "car comparison" way.
+This is a full stack project based on ASP.Net Core(on Linux)  + Angular2 + Python.  
+This application automatically retrieves Canadian job opportunities from several websites, analyze the requirement description, extract required 
+competencies and level of experience, display the results in a "car comparison" way.
 
 ====
 ##Table of Content
