@@ -17,7 +17,7 @@ It consists of 4 subsystems. Each reside in a separate repository. (Click the su
 
    `Python` `Selenium` `BeautifulSoup4` `AWS EC2` `RHEL`  
    A python scraper deployed on AWS EC2 (Linux). 
-   It regurlarly fetch recruiting information (using key words 'software developer') from several Canadien recruitment website,
+   It regurlarly fetch recruiting information from several Canadien recruitment website,
    such as Monster.ca, Neuvoo.ca, Workopolis.ca
    It then sends the raw information to jobboard.backend.
 
