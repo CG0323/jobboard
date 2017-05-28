@@ -3,8 +3,9 @@ This is a full stack project based on ASP.Net Core(on Linux)  + Angular2 + Pytho
 This application automatically retrieves Canadian job opportunities from several websites, analyze the requirement description, extract required 
 competencies and level of experience, display the results in a "car comparison" way.
 
-====
+=======
 ##Table of Content
+-----------
 * [System Design](#system-design)
 * [Demo](#demo)
 * [Motivation](#motivation)
